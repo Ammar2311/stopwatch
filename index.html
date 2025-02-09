@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stop watch</title>
+
+    <style>
+         body{
+            display:flex;
+            flex-direction: column;
+            /* justify-content: center; */
+              align-items: center;
+
+         }
+
+          #stopWatch{
+            margin-top:40px;
+            font-size:36px;
+            /* margin: 0 auto; */
+          }
+
+
+          form input{
+            width:30px;
+
+          }
+
+    </style>
+</head>
+<body>
+   
+    
+    <div>
+     <form> 
+      <input id="hour" type="number">
+      <input id="minute" type="number">
+    </form> 
+     <button id="btn">start</button>
+    </div>
+    <div id="stopWatch"></div>
+    <div id="min"></div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
