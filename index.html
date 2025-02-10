@@ -14,7 +14,7 @@
 
          }
 
-          #stopWatch{
+          #sec{
             margin-top:40px;
             font-size:36px;
             /* margin: 0 auto; */
@@ -29,17 +29,19 @@
     </style>
 </head>
 <body>
-   
-    
-    <div>
-     <form> 
-      <input id="hour" type="number">
-      <input id="minute" type="number">
-    </form> 
-     <button id="btn">start</button>
+    <div class="view">
+        <span id="min"></span>
+        <span id="sec"></span>
     </div>
-    <div id="stopWatch"></div>
-    <div id="min"></div>
+    <div>
+      <form> 
+        <input id="hour" type="number" placeholder="00">
+        <input id="minute" type="number" placeholder="00">
+      </form> 
+      <button id="btn">start</button>
+      <button id="btnStop">cancel</button>
+    </div>
+    
 
 
     <script src="script.js"></script>
