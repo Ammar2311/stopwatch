@@ -1,0 +1,25 @@
+
+
+body{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+      align-items: center;
+
+ }
+
+  #sec{
+    margin-top:40px;
+    font-size:36px;
+    /* margin: 0 auto; */
+  }
+
+
+  form input{
+    width:30px;
+
+  }
+
+  #study_table{
+    margin-top:20px
+  }

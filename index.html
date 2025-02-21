@@ -4,31 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>stop watch</title>
-
-    <style>
-         body{
-            display:flex;
-            flex-direction: column;
-            /* justify-content: center; */
-              align-items: center;
-
-         }
-
-          #sec{
-            margin-top:40px;
-            font-size:36px;
-            /* margin: 0 auto; */
-          }
-
-
-          form input{
-            width:30px;
-
-          }
-
-    </style>
+     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
+
     <div class="view">
         <span id="min"></span>
         <span id="sec"></span>
@@ -37,11 +17,21 @@
       <form> 
         <input id="hour" type="number" placeholder="00">
         <input id="minute" type="number" placeholder="00">
+
+        <input id="task_field" type="text" >
       </form> 
       <button id="btn">start</button>
       <button id="btnStop">cancel</button>
     </div>
-    
+
+  <table id="study_table">
+    <tr>
+      <th>Time</th>
+      <th>Descreption</th>
+    </tr>
+
+
+  </table>  
 
 
     <script src="script.js"></script>
