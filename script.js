@@ -34,7 +34,7 @@ const start=document.getElementById("btn");  //target start downCount button
 
       let time=document.createElement("td");
       let desc=document.createElement("td");
-      time.innerHTML=minutes/60;      //asign values(time and descreption)
+      time.innerHTML=(minutes/60).toFixed(2);      //asign values(time and descreption)
       desc.innerHTML=taskName;
 
 

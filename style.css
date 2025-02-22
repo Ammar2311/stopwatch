@@ -19,7 +19,28 @@ body{
     width:30px;
 
   }
-
+  table,th,td{
+    border: black solid 1px;
+    border-collapse: collapse;
+  }
   #study_table{
-    margin-top:20px
+    margin:20px auto;
+  }
+  
+  #task_field{
+    display: block;
+    width: 50%;
+    margin: 2px auto;
+  }
+
+
+  .view{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .input{
+    width:50%;
+    margin:0 auto;
+    text-align: center;
   }
